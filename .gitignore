@@ -1,0 +1,28 @@
+# 1. Archivos con información sensible (Contraseñas, tokens, configuraciones locales)
+.env
+.env.local
+config.local.php
+credentials.json
+
+# 2. Archivos temporales y logs
+*.log
+npm-debug.log*
+yarn-error.log*
+tmp/
+temp/
+
+# 3. Binarios, compilados y dependencias pesadas
+node_modules/
+vendor/
+dist/
+build/
+*.exe
+*.dll
+*.so
+
+# 4. Archivos de configuración del Sistema Operativo y del IDE (No deben compartirse)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
